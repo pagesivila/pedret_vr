@@ -30,7 +30,7 @@ A WebXR virtual reality application built with Three.js, `three-mesh-ui`, and Vi
 ## 1. Clone the Project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/pagesivila/pedret_vr.git
 ```
 
 ## 2. Install Dependencies
