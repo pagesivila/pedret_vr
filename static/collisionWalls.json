@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ceiling_low",
+    "targetGroup": "secondary",
+    "width": 8,
+    "height": 11,
+    "position": { "x": -1.0, "y": 3.5, "z": 0.0 },
+    "rotation": { "x": 1.570796, "y": 0, "z": 0 },
+    "validModels": [0],
+    "debug": false
+  },
+  {
+    "id": "ceiling_abse_central",
+    "targetGroup": "secondary",
+    "width": 4,
+    "height": 4.5,
+    "position": { "x": -1.6, "y": 4.3, "z": -7.5 },
+    "rotation": { "x": 1.570796, "y": 0, "z": 0 },
+    "validModels": null,
+    "debug": false
+  },
+  {
+    "id": "ceiling_abse_left",
+    "targetGroup": "secondary",
+    "width": 4,
+    "height": 4.5,
+    "position": { "x": -6.0, "y": 3.9, "z": -7.5 },
+    "rotation": { "x": 1.570796, "y": 0, "z": 0 },
+    "validModels": [1, 2, 3, 4, 5],
+    "debug": false
+  },
+  {
+    "id": "ceiling_abse_right",
+    "targetGroup": "secondary",
+    "width": 4,
+    "height": 4.5,
+    "position": { "x": 3.0, "y": 2.8, "z": -7.5 },
+    "rotation": { "x": 1.570796, "y": 0, "z": 0 },
+    "validModels": [1, 2, 3, 4, 5],
+    "debug": false
+  },
+  {
+    "id": "ceiling_high",
+    "targetGroup": "secondary",
+    "width": 10,
+    "height": 15,
+    "position": { "x": -1.0, "y": 5.1, "z": 1.5 },
+    "rotation": { "x": 1.570796, "y": 0, "z": 0 },
+    "validModels": [1, 2, 3, 4, 5],
+    "debug": false
+  }
+]

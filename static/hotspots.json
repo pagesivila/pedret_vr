@@ -1,0 +1,527 @@
+[
+  {
+    "id": "hotspot_welcome",
+    "type": "floor_hotspot",
+    "audioPath": "audio/intro.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 20 },
+    "description": "Welcome!",
+    "requiredModel": "pedret_IX",
+    "requiredView": "outside"
+  },
+  {
+    "id": "IX_out_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/IX_out_1.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "The Location of the church",
+    "requiredModel": "pedret_IX",
+    "requiredView": "outside"
+  },
+  {
+    "id": "IX_out_2",
+    "type": "floor_hotspot",
+    "audioPath": "audio/IX_out_2.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 10 },
+    "description": "The Origins of the church",
+    "requiredModel": "pedret_IX",
+    "requiredView": "outside"
+  },
+  {
+    "id": "IX_in",
+    "type": "floor_hotspot",
+    "audioPath": "audio/IX_in.mp3",
+    "position": { "x": -1.4, "y": 0.1, "z": 1 },
+    "description": "The Earliest church",
+    "requiredModel": "pedret_IX",
+    "requiredView": "inside"
+  },  
+  {
+    "id": "X_out",
+    "type": "floor_hotspot",
+    "audioPath": "audio/X_out.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "The 10th-Century Expansion",
+    "requiredModel": "pedret_X",
+    "requiredView": "outside"
+  },
+  {
+    "id": "X_in_central",
+    "type": "floor_hotspot",
+    "audioPath": "audio/X_in_central.mp3",
+    "position": { "x": -1.4, "y": 0.17, "z": -3 },
+    "description": "The Central Nave",
+    "requiredModel": "pedret_X",
+    "requiredView": "inside"
+  },
+  {
+    "id": "X_in_south",
+    "type": "floor_hotspot",
+    "audioPath": "audio/X_in_south.mp3",
+    "position": { "x": 2.72, "y": 0.16, "z": -4 },
+    "description": "The South Aisle",
+    "requiredModel": "pedret_X",
+    "requiredView": "inside"
+  },
+  {
+    "id": "X_in_north",
+    "type": "floor_hotspot",
+    "audioPath": "audio/X_in_north.mp3",
+    "position": { "x": -5.9, "y": 1.32, "z": -4.2 },
+    "description": "The North Aisle",
+    "requiredModel": "pedret_X",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XI_out",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XI_out.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "The 11th-Century Church",
+    "requiredModel": "pedret_XI",
+    "requiredView": "outside"
+  },
+  {
+    "id": "XI_in_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XI_in_1.mp3",
+    "position": { "x": -1.4, "y": 0.1, "z": 1 },
+    "description": "The First Painted Decorations",
+    "requiredModel": "pedret_XI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XI_in_2",
+    "type": "wall",
+    "parentFloor": "XI_in_1",
+    "audioPath": "audio/XI_in_2.mp3",
+    "position": { "x": -4.0, "y": 2.1, "z": -1.5 },
+    "description": "The Earliest Crucifixion",
+    "requiredModel": "pedret_XI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XI_in_central",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XI_in_central.mp3",
+    "position": { "x": -1.4, "y": 0.56, "z": -6.9 },
+    "description": "The Knight and the Orant",
+    "requiredModel": "pedret_XI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_out",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_out.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "The Romanesque Frescoes",
+    "requiredModel": "pedret_XII",
+    "requiredView": "outside"
+  },
+  {
+    "id": "XII_in",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_in.mp3",
+    "position": { "x": -1.4, "y": 0.1, "z": 1 },
+    "description": "The 12th-Century Frescoes",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_in_frame_1.mp3",
+    "position": { "x": -1.4, "y": 0.15, "z": -3 },
+    "description": "The Forerunners of Faith",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_2",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_2.mp3",
+    "position": { "x": -3.3, "y": 4.0, "z": -5.1 },
+    "description": "Abraham and Melchizedek",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_3",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_3.mp3",
+    "position": { "x": -3.3, "y": 2.5, "z": -5.1 },
+    "description": "The Martyrdom of Cyricus and Julitta",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_4",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_4.mp3",
+    "position": { "x": -0.4, "y": 3.7, "z": -5.75 },
+    "description": "Cain and Abel's Offerings",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_5",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_5.mp3",
+    "position": { "x": -0.2, "y": 2.9, "z": -5.7 },
+    "description": "Cain's Crime",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_6",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_6.mp3",
+    "position": { "x": -3.3, "y": 1.6, "z": -5.1 },
+    "description": "The Mermaid and the Bird Rider",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_7",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_7.mp3",
+    "position": { "x": 0.3, "y": 1.0, "z": -5.1 },
+    "description": "The Medieval Hedgehog",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_frame_8",
+    "type": "wall",
+    "parentFloor": "XII_in_frame_1",
+    "audioPath": "audio/XII_in_frame_8.mp3",
+    "position": { "x": -3.3, "y": 4.9, "z": -5.1 },
+    "description": "Upper Arch and Saints",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_in_south_1.mp3",
+    "position": { "x": 2.72, "y": 0.16, "z": -6.65 },
+    "description": "The South Apse",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_2",
+    "type": "wall",
+    "parentFloor": "XII_in_south_1",
+    "audioPath": "audio/XII_in_south_2.mp3",
+    "position": { "x": 3, "y": 2.2, "z": -5.67 },
+    "description": "The Enigmatic Seated Figure",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_3",
+    "type": "wall",
+    "parentFloor": "XII_in_south_1",
+    "audioPath": "audio/XII_in_south_3.mp3",
+    "position": { "x": 2.72, "y": 3.1, "z": -6.65 },
+    "description": "The Incarnation of Christ",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_4",
+    "type": "wall",
+    "parentFloor": "XII_in_south_1",
+    "audioPath": "audio/XII_in_south_4.mp3",
+    "position": { "x": 3.57, "y": 1.75, "z": -6.15 },
+    "description": "The Church on Earth",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_5",
+    "type": "wall",
+    "parentFloor": "XII_in_south_1",
+    "audioPath": "audio/XII_in_south_5.mp3",
+    "position": { "x": 3.59, "y": 1.8, "z": -7.15 },
+    "description": "The Parable of the Virgins",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_south_6",
+    "type": "wall",
+    "parentFloor": "XII_in_south_1",
+    "audioPath": "audio/XII_in_south_6.mp3",
+    "position": { "x": 3, "y": 0.7, "z": -7.6 },
+    "description": "The Painted Curtains",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_north_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_in_north_1.mp3",
+    "position": { "x": -5.9, "y": 1.32, "z": -6.82 },
+    "description": "The North Apse",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_north_2",
+    "type": "wall",
+    "parentFloor": "XII_in_north_1",
+    "audioPath": "audio/XII_in_north_2.mp3",
+    "position": { "x": -6.6, "y": 3.1, "z": -7.3 },
+    "description": "Saint Peter and the Apostles",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_north_3",
+    "type": "wall",
+    "parentFloor": "XII_in_north_1",
+    "audioPath": "audio/XII_in_north_3.mp3",
+    "position": { "x": -6.5, "y": 1.75, "z": -7.52 },
+    "description": "The Painted Curtains",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XII_in_central_1.mp3",
+    "position": { "x": -1.4, "y": 0.56, "z": -6.9 },
+    "description": "The Vision of the Apocalypse",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_2",
+    "type": "wall",
+    "parentFloor": "XII_in_central_1",
+    "audioPath": "audio/XII_in_central_2.mp3",
+    "position": { "x": -1.6, "y": 4.5, "z": -7.5 },
+    "description": "Christ in Majesty and the Evangelists",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_3",
+    "type": "wall",
+    "parentFloor": "XII_in_central_1",
+    "audioPath": "audio/XII_in_central_3.mp3",
+    "position": { "x": -1.6, "y": 3.2, "z": -9.6 },
+    "description": "The Throne and the Twenty-Four Elders",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_4",
+    "type": "wall",
+    "parentFloor": "XII_in_central_1",
+    "audioPath": "audio/XII_in_central_4.mp3",
+    "position": { "x": 0.3, "y": 3.1, "z": -7 },
+    "description": "The Four Horsemen",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_5",
+    "type": "wall",
+    "parentFloor": "XII_in_central_1",
+    "audioPath": "audio/XII_in_central_5.mp3",
+    "position": { "x": -3.4, "y": 3.5, "z": -7.5 },
+    "description": "The Seven Seals and the Altar",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XII_in_central_6",
+    "type": "wall",
+    "parentFloor": "XII_in_central_1",
+    "audioPath": "audio/XII_in_central_6.mp3",
+    "position": { "x": -1.4, "y": 1.3, "z": -9.5 },
+    "description": "The Painted Curtains and Sea Monsters",
+    "requiredModel": "pedret_XII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_out",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XIII_out.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "The 13th-Century Transformation",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "outside"
+  },
+  {
+    "id": "XIII_in",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XIII_in.mp3",
+    "position": { "x": -1.4, "y": 0.1, "z": 1 },
+    "description": "The Hidden Frescoes",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_central_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XIII_in_central_1.mp3",
+    "position": { "x": -1.4, "y": 0.56, "z": -6.9 },
+    "description": "Mural Execution Techniques",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_central_2",
+    "type": "wall",
+    "parentFloor": "XIII_in_central_1",
+    "audioPath": "audio/XIII_in_central_2.mp3",
+    "position": { "x": -0, "y": 3.0, "z": -9.6 },
+    "description": "Earth and Lime Pigments",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_central_3",
+    "type": "wall",
+    "parentFloor": "XIII_in_central_1",
+    "audioPath": "audio/XIII_in_central_3.mp3",
+    "position": { "x": -1.6, "y": 2.5, "z": -9.6 },
+    "description": "Local Pyrenean Aerinite",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_south_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XIII_in_south_1.mp3",
+    "position": { "x": 2.72, "y": 0.16, "z": -6.65 },
+    "description": "Overview of the Lateral Apse",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_south_2",
+    "type": "wall",
+    "parentFloor": "XIII_in_south_1",
+    "audioPath": "audio/XIII_in_south_2.mp3",
+    "position": { "x": 1.8, "y": 2.3, "z": -6.5 },
+    "description": "The Triad of Colours",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XIII_in_south_3",
+    "type": "wall",
+    "parentFloor": "XIII_in_south_1",
+    "audioPath": "audio/XIII_in_south_3.mp3",
+    "position": { "x": 2.1, "y": 2.2, "z": -7.3 },
+    "description": "How to paint a face",
+    "requiredModel": "pedret_XIII",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_out",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XXI_in_1.mp3",
+    "position": { "x": -1, "y": 0.05, "z": 15 },
+    "description": "A Monument in Fragments",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "outside"
+  },
+  {
+    "id": "XXI_in_2",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XXI_in_north_1.mp3",
+    "position": { "x": -1.4, "y": 0.11, "z": -1.1 },
+    "description": "Museum Exhibitions in Barcelona and Solsona",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_central_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XXI_in_central_1.mp3",
+    "position": { "x": -1.4, "y": 0.56, "z": -6.5 },
+    "description": "Modern Reproductions in the Original Church",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_central_2",
+    "type": "wall",
+    "parentFloor": "XXI_in_central_1",
+    "audioPath": "audio/XXI_in_central_2.mp3",
+    "position": { "x": -1.0, "y": 3.7, "z": -9.6 },
+    "description": "The 1937 Civil War Emergency Campaign",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_central_3",
+    "type": "wall",
+    "parentFloor": "XXI_in_central_1",
+    "audioPath": "audio/XXI_in_central_3.mp3",
+    "position": { "x": -1.6, "y": 2.3, "z": -9.6 },
+    "description": "The Pre-Romanesque Hidden Layer",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_north_2",
+    "type": "wall",
+    "parentFloor": "XXI_in_central_1",
+    "audioPath": "audio/XXI_in_north_2.mp3",
+    "position": { "x": -3.4, "y": 2.83, "z": -7.7 },
+    "description": "Pioneering 1:1 Scale Architectural Mounting",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_north_3",
+    "type": "wall",
+    "parentFloor": "XXI_in_central_1",
+    "audioPath": "audio/XXI_in_north_3.mp3",
+    "position": { "x": 0.1, "y": 2.0, "z": -7.7 },
+    "description": "Modern Restorations and Pigment Analysis",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_south_1",
+    "type": "floor_hotspot",
+    "audioPath": "audio/XXI_in_south_1.mp3",
+    "position": { "x": 2.72, "y": 0.16, "z": -6.65 },
+    "description": "Sacristy Preservation and The 1921 First Campaign",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_south_2",
+    "type": "wall",
+    "parentFloor": "XXI_in_south_1",
+    "audioPath": "audio/XXI_in_south_2.mp3",
+    "position": { "x": 3.1, "y": 1.7, "z": -7.3 },
+    "description": "The Strappo Extraction Process",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  },
+  {
+    "id": "XXI_in_south_3",
+    "type": "wall",
+    "parentFloor": "XXI_in_south_1",
+    "audioPath": "audio/XXI_in_south_3.mp3",
+    "position": { "x": 2.0, "y": 1.7, "z": -7.3 },
+    "description": "Remounting to the Transfer Canvas",
+    "requiredModel": "pedret_XXI",
+    "requiredView": "inside"
+  }
+]

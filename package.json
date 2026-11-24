@@ -1,0 +1,20 @@
+{
+  "name": "manresa",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "three": "^0.178.0",
+    "three-mesh-ui": "^6.5.4"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-restart": "^0.4.2",
+    "vite-plugin-mkcert": "^1.17.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}
+
+
